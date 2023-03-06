@@ -6,6 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
+.Gu {
+  color: rgb(34, 81, 81);
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
