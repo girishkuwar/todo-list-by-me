@@ -1,0 +1,12 @@
+.container {
+    padding: 100px 4%;
+}
+.title {
+    font-size: 25px;
+}
+.desc {
+    font-size: 15px;
+    color: gray;
+    margin-left: 52px;
+    padding-bottom: 25px;
+}
