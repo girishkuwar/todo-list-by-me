@@ -13,6 +13,8 @@ form input {
     padding: 15px;
     font-size: 15px;
     width: 500px;
+    border: none;
+    outline: none;
 }
 form .btn {
     width: 100px;
@@ -21,4 +23,14 @@ form .btn {
     font-size: 15px;
     border: none;
     border-radius: 5px;
+}
+
+@media (max-width: 720px) {
+    form {
+        width: 100%;
+    }
+    form input {
+        width: 500px;
+        margin: 5px 45px;
+    }
 }

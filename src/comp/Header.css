@@ -2,7 +2,7 @@ header {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    background-color: rgb(23, 23, 23);
+    background-color: rgb(52, 32, 0);
 }
 ul {
     display: flex;
@@ -14,4 +14,18 @@ li {
 a {
     text-decoration: none;
     color: aliceblue;
+}
+
+@media (max-width: 720px) {
+    body {
+        display: flex;
+        align-items: center;
+    }
+    header {
+        width: 100vh;
+        font-size: 1rem;
+    }
+    li {
+        padding: 5px 7px;
+    }
 }

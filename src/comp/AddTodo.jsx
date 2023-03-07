@@ -21,7 +21,7 @@ export const AddTodo = (props) => {
         <form action="" onSubmit={submit}>
         <input type="text" value={Title} onChange={(e) => {setTitle(e.target.value)}} placeholder='Title' />
         <input type="text" value={desc} onChange={(e) => {setdesc(e.target.value)}} placeholder='Description' />
-        <input className='btn' type="submit" name="Add Todo" />
+        <input className='btn' type="submit" value="Add Todo"/>
         </form>
         </>
     )
