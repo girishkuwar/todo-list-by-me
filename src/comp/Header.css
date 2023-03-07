@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(23, 23, 23);
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    padding: 10px 20px;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
